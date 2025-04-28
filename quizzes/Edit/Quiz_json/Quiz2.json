@@ -1,0 +1,103 @@
+[
+    {
+        "question": "What is the main goal of using machine learning in this tutorial with respect to SARS-CoV and SARS-CoV-2?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Predict the spread of the virus", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Compare the binding of the RBDs of the two viruses to ACE2", "correct": true, "feedback": "Correct! The main goal is to compare the binding of the RBDs of the two viruses to ACE2."},
+            {"answer": "Model the mutation patterns of SARS-CoV-2", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Determine the genetic sequence of ACE2", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "Which protein does SARS-CoV-2 primarily use to bind to host cells?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Hemoglobin", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Spike protein", "correct": true, "feedback": "Correct! SARS-CoV-2 primarily uses the spike protein to bind to host cells."},
+            {"answer": "ACE2 receptor", "correct": false, "feedback": "Incorrect"},
+            {"answer": "M2 ion channel", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What kind of data is primarily analyzed in this tutorial?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Genetic sequences of viruses", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Binding energies of different drugs", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Pairwise residue distances between the RBD and ACE2", "correct": true, "feedback": "Correct! The primary data analyzed is pairwise residue distances between the RBD and ACE2."},
+            {"answer": "Immune response data from infected individuals", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "Which machine learning models are applied in this tutorial for residue importance analysis?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Linear regression, K-means clustering, Random Forest", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Random Forest, Logistic Regression, Multilayer Perceptron (MLP)", "correct": true, "feedback": "Correct! The models applied are Random Forest, Logistic Regression, and Multilayer Perceptron (MLP)."},
+            {"answer": "Decision Trees, Neural Networks, Genetic Algorithms", "correct": false, "feedback": "Incorrect"},
+            {"answer": "SVM, KNN, Random Forest", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What preprocessing step is applied to the dataset to improve the performance of the machine learning models?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Data augmentation", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Standardization of pairwise distances", "correct": true, "feedback": "Correct! The preprocessing step applied is standardization of pairwise distances."},
+            {"answer": "Removal of unaligned residues", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Binning of continuous variables", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What is the purpose of calculating the correlation matrix in this tutorial?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "To visualize the relationship between features and labels", "correct": false, "feedback": "Incorrect"},
+            {"answer": "To remove highly correlated features to avoid multicollinearity", "correct": true, "feedback": "Correct! The purpose is to remove highly correlated features to avoid multicollinearity."},
+            {"answer": "To detect the most similar residues between SARS-CoV and SARS-CoV-2", "correct": false, "feedback": "Incorrect"},
+            {"answer": "To reduce the number of dataframes needed for training", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "Which residue pairs were specifically visualized to understand the interaction between ACE2 and SARS-CoV in the tutorial?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Arg426 and Glu329", "correct": true, "feedback": "Correct! The residue pairs visualized were Arg426 and Glu329."},
+            {"answer": "Lys390 and Glu37", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Val404 and Asp30", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Arg426 and Asn439", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a feature of Random Forest as used in the tutorial?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "It uses multiple decision trees for classification", "correct": false, "feedback": "Incorrect"},
+            {"answer": "It performs well even with high-dimensional data", "correct": false, "feedback": "Incorrect"},
+            {"answer": "It is sensitive to the scaling of input features", "correct": true, "feedback": "Correct! Random Forest is not sensitive to the scaling of input features."},
+            {"answer": "It calculates feature importance after training", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What challenge does multicollinearity pose when analyzing molecular dynamics data?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "It increases the computation time of machine learning algorithms", "correct": false, "feedback": "Incorrect"},
+            {"answer": "It makes it difficult to isolate the independent effect of each residue pair on the target variable", "correct": true, "feedback": "Correct! Multicollinearity makes it difficult to isolate the independent effect of each residue pair on the target variable."},
+            {"answer": "It causes overfitting in neural networks", "correct": false, "feedback": "Incorrect"},
+            {"answer": "It leads to an increased false-negative rate in classification", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "In the analysis, which method was suggested to compare results from different machine learning models?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Cross-validation", "correct": false, "feedback": "Incorrect"},
+            {"answer": "ROC curves", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Correlation of residue importance scores", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Visualization of residue importance using matplotlib", "correct": true, "feedback": "Correct! The suggested method is visualization of residue importance using matplotlib."}
+        ]
+    }
+]
+

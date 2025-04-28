@@ -1,0 +1,83 @@
+[
+    {
+        "question": "What is the primary function of PyMOL in this tutorial?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "To create molecular simulations", "correct": false, "feedback": "Incorrect"},
+            {"answer": "To visualize proteins and molecular structures", "correct": true, "feedback": "Correct! PyMOL is used to visualize proteins and molecular structures."},
+            {"answer": "To predict protein folding", "correct": false, "feedback": "Incorrect"},
+            {"answer": "To edit genetic sequences", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "How can you change the working directory in PyMOL?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "By using the `cd` command in the terminal", "correct": true, "feedback": "Correct! You can change the working directory using the `cd` command."},
+            {"answer": "By navigating through the file browser", "correct": false, "feedback": "Incorrect"},
+            {"answer": "By dragging and dropping files into PyMOL", "correct": false, "feedback": "Incorrect"},
+            {"answer": "By using the `pwd` command", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "Which command is used to load a protein structure in PyMOL?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "PyMOL> open 1AKI", "correct": false, "feedback": "Incorrect"},
+            {"answer": "PyMOL> import 1AKI", "correct": false, "feedback": "Incorrect"},
+            {"answer": "PyMOL> fetch 1AKI", "correct": true, "feedback": "Correct! The `fetch` command is used to load a protein structure."},
+            {"answer": "PyMOL> load 1AKI", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What does the 'C' option represent in the PyMOL interface when manipulating protein structures?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Change representation", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Color the structure", "correct": true, "feedback": "Correct! The 'C' option is used to color the structure."},
+            {"answer": "Copy the object", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Calculate distances", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What is the purpose of using the `ray` command in PyMOL?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "To fetch the molecular structure from the database", "correct": false, "feedback": "Incorrect"},
+            {"answer": "To create a 3D ray-traced image of the molecule", "correct": true, "feedback": "Correct! The `ray` command creates a 3D ray-traced image."},
+            {"answer": "To save the session", "correct": false, "feedback": "Incorrect"},
+            {"answer": "To export molecular interactions", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "How can you select and display only the amino acids in the beta-sheet of a protein in PyMOL?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Use the `fetch` command", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Click and select the beta-sheet residues and store them in the `sele` variable", "correct": true, "feedback": "Correct! You can select and store beta-sheet residues in the `sele` variable."},
+            {"answer": "Click 'Hide All' and then 'Show Beta-Sheet'", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Change the structure to licorice mode", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What does the ‘licorice’ representation in PyMOL show?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "The full globular shape of the protein", "correct": false, "feedback": "Incorrect"},
+            {"answer": "A simplified 2D diagram of the protein structure", "correct": false, "feedback": "Incorrect"},
+            {"answer": "The explicit atomic structure of amino acids", "correct": true, "feedback": "Correct! The licorice representation shows the explicit atomic structure."},
+            {"answer": "The primary sequence of the protein", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What does the root-mean-square deviation (RMSD) value indicate when comparing two aligned proteins in PyMOL?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "The total mass of both proteins", "correct": false, "feedback": "Incorrect"},
+            {"answer": "The average difference in position between aligned atoms", "correct": true, "feedback": "Correct! RMSD indicates the average difference in position between aligned atoms."},
+            {"answer": "The total number of amino acids in the protein", "correct": false, "feedback": "Incorrect"},
+            {"answer": "The similarity in protein function", "correct": false, "feedback": "Incorrect"}
+        ]
+    }
+]
+

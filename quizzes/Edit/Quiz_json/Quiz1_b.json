@@ -1,0 +1,83 @@
+[
+    {
+        "question": "Which type of machine learning model is described as fitting multiple decision trees to sub-samples of a dataset and averaging the results?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Logistic Regression", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Random Forest", "correct": true, "feedback": "Correct! Random Forest fits multiple decision trees to sub-samples of a dataset and averages the results."},
+            {"answer": "Support Vector Machine", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Neural Network", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What metric is used to quantify the performance of a decision tree model?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Accuracy", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Precision", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Gini impurity", "correct": true, "feedback": "Correct! Gini impurity is used to quantify the performance of a decision tree model."},
+            {"answer": "Recall", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "In the Random Forest model, how is the classification result determined?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "By the average of the decision tree outputs", "correct": false, "feedback": "Incorrect"},
+            {"answer": "By the majority vote of all decision trees", "correct": true, "feedback": "Correct! The classification result is determined by the majority vote of all decision trees."},
+            {"answer": "By the highest-weighted decision tree", "correct": false, "feedback": "Incorrect"},
+            {"answer": "By the tree with the lowest Gini impurity", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "Which Python library is primarily used in this tutorial for implementing machine learning models like Random Forest and Logistic Regression?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "TensorFlow", "correct": false, "feedback": "Incorrect"},
+            {"answer": "PyTorch", "correct": false, "feedback": "Incorrect"},
+            {"answer": "scikit-learn", "correct": true, "feedback": "Correct! scikit-learn is used for implementing machine learning models like Random Forest and Logistic Regression."},
+            {"answer": "Keras", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "Which function is used in Python’s scikit-learn to split data into training and test sets?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "train_test_split()", "correct": true, "feedback": "Correct! The `train_test_split()` function is used to split data into training and test sets."},
+            {"answer": "data_split()", "correct": false, "feedback": "Incorrect"},
+            {"answer": "model_split()", "correct": false, "feedback": "Incorrect"},
+            {"answer": "split_data()", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What is the primary difference between Logistic Regression and Random Forest models as described in the tutorial?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Logistic Regression is a linear model, while Random Forest is a non-linear model", "correct": true, "feedback": "Correct! Logistic Regression is a linear model, while Random Forest is a non-linear model."},
+            {"answer": "Logistic Regression handles missing data better than Random Forest", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Random Forest is used only for binary classification, while Logistic Regression is used for multi-class problems", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Random Forest requires more computational resources than Logistic Regression", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "What method does a Logistic Regression model use to estimate coefficients for input features?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "Gradient Descent", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Maximum Likelihood Estimation (MLE)", "correct": true, "feedback": "Correct! Logistic Regression uses Maximum Likelihood Estimation (MLE) to estimate coefficients."},
+            {"answer": "Gini impurity", "correct": false, "feedback": "Incorrect"},
+            {"answer": "Cross-Entropy Loss", "correct": false, "feedback": "Incorrect"}
+        ]
+    },
+    {
+        "question": "In the Multilayer Perceptron (MLP), what is the function of the hidden layers?",
+        "type": "multiple_choice",
+        "answers": [
+            {"answer": "To output the final classification result", "correct": false, "feedback": "Incorrect"},
+            {"answer": "To provide linear transformations to the input data", "correct": false, "feedback": "Incorrect"},
+            {"answer": "To perform non-linear transformations of the input data", "correct": true, "feedback": "Correct! The hidden layers perform non-linear transformations of the input data."},
+            {"answer": "To compute the accuracy of the model", "correct": false, "feedback": "Incorrect"}
+        ]
+    }
+]
+
