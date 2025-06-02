@@ -1,7 +1,6 @@
-
-![course card](images/diagram.png)
-
-# Structural Biology and Drug Discovery
+<p align="center">
+    <img src="images/diagram.png" width="400" />
+</p>
 
 -------------
 
@@ -27,7 +26,14 @@ This is where machine learning comes into play. We can take our MD trajectories 
 
 
 ## **Overview**
-In this tutorial, we will apply three different ML approaches - random forest, logistic regression, and multi-layer perceptron. We will analyze the residues at the interface of where SARS-CoV or SARS-CoV2 bind to hACE2. More specifically, the input data is the inverse of the distance between the residues. The tutorial is split into three separate modules. 
+In this tutorial, we will apply three different ML approaches - random forest, logistic regression, and multi-layer perceptron. We will analyze the residues at the interface of where SARS-CoV or SARS-CoV2 bind to hACE2. More specifically, the input data is the inverse of the distance between the residues. The tutorial is split into three separate modules. <br><br>
+<span> <b>Click the image below to watch overview video</b> </span>
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=FVe2cXwiGK0&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=51">
+            <img src="images/overview-video-graphic.jpeg" alt="MeRIP-Seq Module Overview Video", width="400"/>
+        </a>
+    <br><br>
+</p>
 
 ## **Module Design**
 
@@ -56,6 +62,14 @@ By the end of this tutorial, you’ll know how to combine dynamic molecular data
 
 ## **Before Starting**
 This module is designed to run on the Google Cloud Platform (GCP). Follow the instructions below to prepare to run the module on GCP.
+
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=Y27-IW6hj6E&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=9">
+            <img src="images/google_setup.png" alt="Creating an Vertex AI Notebook Instance", width="550"/>
+        </a>
+    <br>
+    <span> Click above image to watch notebook setup video </span>
+</p>
 
 #### Setting up GCP
 
