@@ -97,10 +97,10 @@ See the [Vertex AI Quickstart instructions](https://cloud.google.com/vertex-ai/d
 6. To clone the Github repository for this module in JupyterLab, open a Terminal (File -> New Launcher -> Terminal) and run the following commands:
 ```bash
 cd ~
-git clone https://github.com/rmagesh148/Structural-Biology-and-Drug-Discovery.git
+git clone https://github.com/NIGMS/Protein-Protein-Interactions-using-ML.git
 ```
 <br>    
-After the last command completes there should be a folder name *Structural-Biology-and-Drug-Discovery* that contains each submodule directory. Start with Submodule 0 to confirm you can spin up the PyMOL and AutoDock GUIs.    
+After the last command completes there should be a folder name *Protein-Protein-Interactions-using-ML* that contains each submodule directory. Start with Submodule 0 to confirm you can spin up the PyMOL and AutoDock GUIs.    
 
 </details>
 
