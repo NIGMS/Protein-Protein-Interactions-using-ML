@@ -27,7 +27,7 @@ This is where machine learning comes into play. We can take our MD trajectories 
 
 ## **Overview**
 In this tutorial, we will apply three different ML approaches - random forest, logistic regression, and multi-layer perceptron. We will analyze the residues at the interface of where SARS-CoV or SARS-CoV2 bind to hACE2. More specifically, the input data is the inverse of the distance between the residues. The tutorial is split into three separate modules. <br><br>
-<span> <b>Click the image below to watch overview video</b> </span>
+<span> <b>:sparkles: Click the image below to watch overview video</b> </span>
 <p align="center">
         <a href="https://www.youtube.com/watch?v=FVe2cXwiGK0&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=51">
             <img src="images/overview-video-graphic.jpeg" alt="MeRIP-Seq Module Overview Video", width="400"/>
@@ -58,6 +58,7 @@ You’ll use three machine learning models—random forests, logistic regression
 
 By the end of this tutorial, you’ll know how to combine dynamic molecular data with machine learning tools to reveal hidden patterns and drive new biological discoveries.
 
+## Architecture Design
 <center><img src="images/Architecture_Diagram.png" width=1500 /></center><br><br>
 
 ## **Before Starting**
