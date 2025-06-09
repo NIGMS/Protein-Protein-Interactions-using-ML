@@ -106,7 +106,7 @@ After the last command completes there should be a folder name *Protein-Protein-
 </details>
 
 ## **Getting Started**
-To begin go through the [pymol_notebook](PyMOL-GUI/pymol_notebook.ipynb) to start the Pymol instances. Once this is working go through sumbodules 1-3 in order. 
+To begin go through the [pymol_notebook](submodule_0_PyMOL-GUI.ipynb) to start the Pymol instances. Once this is working go through sumbodules 1-3 in order. 
 
 ## **Software Requirements**
 Access to PyMOL is provided through Submodule 0. All other required software is either downloaded through code execution within the notebook or, in limited situations, accessed through internal sites using the provided links.
